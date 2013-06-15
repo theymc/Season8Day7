@@ -1,0 +1,26 @@
+/*
+Theme Name: The YMC Learning Theme
+Theme URI: http://theymc.com
+Description: A theme we are using to learn about WordPress at The YMC - Season 8
+Author: Everybody at The YMC
+Version: 0.1
+*/
+
+body {
+    background: pink;
+}
+
+header {
+    background: lightblue;
+}
+
+footer {
+    background: seagreen;
+}
+
+
+
+
+
+
+
