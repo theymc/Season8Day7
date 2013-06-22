@@ -9,5 +9,21 @@
 
         <header>
 
-            <h1><?php bloginfo('name'); ?></h1>
+            <h1>
+                <a href="<?php bloginfo('url'); ?>">
+                    <?php bloginfo('name'); ?>
+                </a>
+            </h1>
+
+            <nav>
+                <?php
+                    // our old navigation functions 
+                    // wp_list_pages(); 
+                    // wp_list_categories(); 
+                ?>
+
+                <?php wp_nav_menu(); ?>
+
+            </nav>
+
         </header>
